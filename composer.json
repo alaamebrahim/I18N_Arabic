@@ -8,4 +8,9 @@
         }
     ],
     "require": {}
+    "autoload": {
+        "classmap": [
+            "I18N/Arabic.php"
+        ]
+    }
 }
