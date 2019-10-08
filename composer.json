@@ -7,7 +7,7 @@
             "email": "michael.chehivskiy@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
     "autoload": {
         "classmap": [
             "I18N/Arabic.php"
