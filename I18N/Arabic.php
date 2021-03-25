@@ -222,7 +222,7 @@ class I18N_Arabic
         $class         = 'I18N_Arabic_' . $library;
 
         if (!$this->_useAutoload) {
-            include self::getClassFile($this->myFile); 
+            require_once self::getClassFile($this->myFile); 
         }
 
         $this->myObject   = new $class();
